@@ -20,7 +20,7 @@ if __name__ == "__main__":
         [
             (
                 "system",
-                "Extract the relevant information from the text"
+                ""
             ),
             # MessagesPlaceholder('examples'),
             ("human", "{text}"),
