@@ -12,6 +12,7 @@ class Person(BaseModel):
 
     name: str = Field(description="The name of the person")
     age: int = Field(description="The age of the person")
+    field: str = Field(description="The stufy fielf of the person")
 
 
 if __name__ == "__main__":
