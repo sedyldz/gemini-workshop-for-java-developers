@@ -11,8 +11,7 @@ if __name__ == "__main__":
     )
 
     prompt_template = PromptTemplate.from_template("""
-    You're a friendly chef with a lot of cooking experience.
-    Create a recipe for a {dish} with the following ingredients: {ingredients}, and give it a name.
+    {dish}  {ingredients}
     """)
 
     prompt = prompt_template.format(dish="dessert", ingredients="strawberries, chocolate, and whipped cream")
